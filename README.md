@@ -61,30 +61,6 @@ npm start
   - List Customers
   - Delete Customer
 
-## 📁 Project Structure (Simplified)
-
-```
-app/
-  └── login.tsx
-  └── register.tsx
-  └── dashboard/
-      └── index.tsx         # Customer list
-      └── add.tsx           # Add customer
-      └── edit/[id].tsx     # Edit customer
-  └── api/
-      └── auth/             # Register, Login, Password update APIs
-      └── customers/        # Customer CRUD APIs
-
-components/
-  └── CustomerForm.tsx
-  └── Navbar.tsx
-  └── ProtectedRoute.tsx
-
-utils/
-  └── auth.ts
-  └── axiosInstance.ts
-```
-
 ## 📌 Notes
 
 - No multi-user support — this app is meant for **a single panel user only**.
